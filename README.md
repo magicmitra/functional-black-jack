@@ -1,2 +1,2 @@
 # blackjack
-Console Game!
+Functional Paradigm blackjack
