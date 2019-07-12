@@ -130,8 +130,6 @@ async function game() {
   cardDealt = playerHand[2]
   const dealerHand = deal(deck, cardDealt);
   cardDealt = dealerHand[2];
-  // const [playerTotal, dealerTotal] = getTotal(displayHands(playerHand, dealerHand));
-  // getWinner(displayTotal(playerTotal, dealerTotal));
   getWinner(displayTotal(getTotal(displayHands(playerHand, dealerHand))));
   // TODO: eliminate circular dependency
   round();
